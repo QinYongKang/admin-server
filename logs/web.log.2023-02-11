@@ -103,3 +103,319 @@
 {"context":"","level":"info","message":"api服务已经启动,请访问: http://127.0.0.1:7001","pid":45794,"timestamp":"02/11/2023, 7:48:45 PM"}
 {"context":"","level":"info","message":"API文档已生成,请访问: http://127.0.0.1:7001/swagger-api/","pid":45794,"timestamp":"02/11/2023, 7:48:45 PM"}
 {"context":"","level":"info","message":"ws服务已经启动,请访问: http://localhost:7002/ws-api","pid":45794,"timestamp":"02/11/2023, 7:48:45 PM"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"InstanceLoader","level":"info","message":"LoggerModule dependencies initialized","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"InstanceLoader","level":"info","message":"BullModule dependencies initialized","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"InstanceLoader","level":"info","message":"HttpModule dependencies initialized","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"InstanceLoader","level":"info","message":"CacheModule dependencies initialized","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"InstanceLoader","level":"info","message":"RouterModule dependencies initialized","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"InstanceLoader","level":"info","message":"BullModule dependencies initialized","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"InstanceLoader","level":"info","message":"LoggerModule dependencies initialized","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"InstanceLoader","level":"info","message":"RedisModule dependencies initialized","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"InstanceLoader","level":"info","message":"BullModule dependencies initialized","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"InstanceLoader","level":"info","message":"SharedModule dependencies initialized","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"InstanceLoader","level":"info","message":"WSModule dependencies initialized","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"InstanceLoader","level":"info","message":"MissionModule dependencies initialized","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"InstanceLoader","level":"info","message":"SystemModule dependencies initialized","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"InstanceLoader","level":"info","message":"AccountModule dependencies initialized","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"InstanceLoader","level":"info","message":"AdminModule dependencies initialized","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"InstanceLoader","level":"info","message":"LoginModule dependencies initialized","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"InstanceLoader","level":"info","message":"NetdiskModule dependencies initialized","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RoutesResolver","level":"info","message":"LoginController {/admin}:","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/captcha/img, GET} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/login, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RoutesResolver","level":"info","message":"SysUserController {/admin/sys/user}:","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/user/add, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/user/info, GET} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/user/delete, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/user/page, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/user/update, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/user/password, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RoutesResolver","level":"info","message":"SysRoleController {/admin/sys/role}:","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/role/list, GET} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/role/page, GET} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/role/delete, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/role/add, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/role/update, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/role/info, GET} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RoutesResolver","level":"info","message":"SysMenuController {/admin/sys/menu}:","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/menu/list, GET} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/menu/add, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/menu/update, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/menu/delete, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/menu/info, GET} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RoutesResolver","level":"info","message":"SysDeptController {/admin/sys/dept}:","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/dept/list, GET} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/dept/add, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/dept/delete, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/dept/info, GET} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/dept/update, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/dept/transfer, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/dept/move, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RoutesResolver","level":"info","message":"SysLogController {/admin/sys/log}:","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/log/login/page, GET} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/log/task/page, GET} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RoutesResolver","level":"info","message":"SysTaskController {/admin/sys/task}:","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/task/page, GET} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/task/add, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/task/update, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/task/info, GET} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/task/once, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/task/stop, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/task/start, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/task/delete, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RoutesResolver","level":"info","message":"SysOnlineController {/admin/sys/online}:","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/online/list, GET} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/online/kick, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RoutesResolver","level":"info","message":"SysParamConfigController {/admin/sys/param-config}:","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/param-config/page, GET} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/param-config/add, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/param-config/info, GET} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/param-config/update, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/param-config/delete, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RoutesResolver","level":"info","message":"SysServeController {/admin/sys/serve}:","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/serve/stat, GET} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RoutesResolver","level":"info","message":"AccountController {/admin/account}:","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/account/info, GET} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/account/update, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/account/password, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/account/logout, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/account/permmenu, GET} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RoutesResolver","level":"info","message":"NetDiskManageController {/admin/netdisk/manage}:","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/netdisk/manage/list, GET} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/netdisk/manage/mkdir, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/netdisk/manage/token, GET} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/netdisk/manage/info, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/netdisk/manage/mark, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/netdisk/manage/download, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/netdisk/manage/rename, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/netdisk/manage/delete, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/netdisk/manage/cut, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/netdisk/manage/copy, POST} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RoutesResolver","level":"info","message":"NetDiskOverviewController {/admin/netdisk/overview}:","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/netdisk/overview/desc, GET} route","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"","level":"info","message":"api服务已经启动,请访问: http://127.0.0.1:7001","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"","level":"info","message":"API文档已生成,请访问: http://127.0.0.1:7001/swagger-api/","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"","level":"info","message":"ws服务已经启动,请访问: http://localhost:7002/ws-api","pid":50195,"timestamp":"02/11/2023, 8:26:17 PM"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"InstanceLoader","level":"info","message":"LoggerModule dependencies initialized","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"InstanceLoader","level":"info","message":"BullModule dependencies initialized","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"InstanceLoader","level":"info","message":"HttpModule dependencies initialized","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"InstanceLoader","level":"info","message":"CacheModule dependencies initialized","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"InstanceLoader","level":"info","message":"RouterModule dependencies initialized","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"InstanceLoader","level":"info","message":"BullModule dependencies initialized","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"InstanceLoader","level":"info","message":"LoggerModule dependencies initialized","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"InstanceLoader","level":"info","message":"RedisModule dependencies initialized","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"InstanceLoader","level":"info","message":"BullModule dependencies initialized","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"InstanceLoader","level":"info","message":"SharedModule dependencies initialized","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"InstanceLoader","level":"info","message":"WSModule dependencies initialized","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"InstanceLoader","level":"info","message":"MissionModule dependencies initialized","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"InstanceLoader","level":"info","message":"SystemModule dependencies initialized","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"InstanceLoader","level":"info","message":"AccountModule dependencies initialized","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"InstanceLoader","level":"info","message":"AdminModule dependencies initialized","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"InstanceLoader","level":"info","message":"LoginModule dependencies initialized","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"InstanceLoader","level":"info","message":"NetdiskModule dependencies initialized","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RoutesResolver","level":"info","message":"LoginController {/admin}:","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/captcha/img, GET} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/login, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RoutesResolver","level":"info","message":"SysUserController {/admin/sys/user}:","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/user/add, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/user/info, GET} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/user/delete, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/user/page, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/user/update, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/user/password, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RoutesResolver","level":"info","message":"SysRoleController {/admin/sys/role}:","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/role/list, GET} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/role/page, GET} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/role/delete, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/role/add, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/role/update, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/role/info, GET} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RoutesResolver","level":"info","message":"SysMenuController {/admin/sys/menu}:","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/menu/list, GET} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/menu/add, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/menu/update, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/menu/delete, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/menu/info, GET} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RoutesResolver","level":"info","message":"SysDeptController {/admin/sys/dept}:","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/dept/list, GET} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/dept/add, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/dept/delete, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/dept/info, GET} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/dept/update, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/dept/transfer, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/dept/move, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RoutesResolver","level":"info","message":"SysLogController {/admin/sys/log}:","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/log/login/page, GET} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/log/task/page, GET} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RoutesResolver","level":"info","message":"SysTaskController {/admin/sys/task}:","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/task/page, GET} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/task/add, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/task/update, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/task/info, GET} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/task/once, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/task/stop, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/task/start, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/task/delete, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RoutesResolver","level":"info","message":"SysOnlineController {/admin/sys/online}:","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/online/list, GET} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/online/kick, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RoutesResolver","level":"info","message":"SysParamConfigController {/admin/sys/param-config}:","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/param-config/page, GET} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/param-config/add, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/param-config/info, GET} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/param-config/update, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/param-config/delete, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RoutesResolver","level":"info","message":"SysServeController {/admin/sys/serve}:","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/serve/stat, GET} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RoutesResolver","level":"info","message":"AccountController {/admin/account}:","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/account/info, GET} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/account/update, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/account/password, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/account/logout, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/account/permmenu, GET} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RoutesResolver","level":"info","message":"NetDiskManageController {/admin/netdisk/manage}:","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/netdisk/manage/list, GET} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/netdisk/manage/mkdir, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/netdisk/manage/token, GET} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/netdisk/manage/info, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/netdisk/manage/mark, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/netdisk/manage/download, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/netdisk/manage/rename, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/netdisk/manage/delete, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/netdisk/manage/cut, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/netdisk/manage/copy, POST} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RoutesResolver","level":"info","message":"NetDiskOverviewController {/admin/netdisk/overview}:","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/netdisk/overview/desc, GET} route","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"","level":"info","message":"api服务已经启动,请访问: http://127.0.0.1:7001","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"","level":"info","message":"API文档已生成,请访问: http://127.0.0.1:7001/swagger-api/","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"","level":"info","message":"ws服务已经启动,请访问: http://localhost:7002/ws-api","pid":53146,"timestamp":"02/11/2023, 9:32:24 PM"}
+{"context":"ApiExceptionFilter","level":"error","message":{},"pid":53146,"timestamp":"02/11/2023, 9:40:12 PM"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"InstanceLoader","level":"info","message":"LoggerModule dependencies initialized","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"InstanceLoader","level":"info","message":"BullModule dependencies initialized","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"InstanceLoader","level":"info","message":"HttpModule dependencies initialized","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"InstanceLoader","level":"info","message":"CacheModule dependencies initialized","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"InstanceLoader","level":"info","message":"RouterModule dependencies initialized","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"InstanceLoader","level":"info","message":"BullModule dependencies initialized","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"InstanceLoader","level":"info","message":"LoggerModule dependencies initialized","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"InstanceLoader","level":"info","message":"JwtModule dependencies initialized","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"InstanceLoader","level":"info","message":"RedisModule dependencies initialized","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"InstanceLoader","level":"info","message":"BullModule dependencies initialized","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"InstanceLoader","level":"info","message":"SharedModule dependencies initialized","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"InstanceLoader","level":"info","message":"WSModule dependencies initialized","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"InstanceLoader","level":"info","message":"MissionModule dependencies initialized","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"InstanceLoader","level":"info","message":"SystemModule dependencies initialized","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"InstanceLoader","level":"info","message":"AccountModule dependencies initialized","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"InstanceLoader","level":"info","message":"AdminModule dependencies initialized","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"InstanceLoader","level":"info","message":"LoginModule dependencies initialized","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"InstanceLoader","level":"info","message":"NetdiskModule dependencies initialized","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RoutesResolver","level":"info","message":"LoginController {/admin}:","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/captcha/img, GET} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/login, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RoutesResolver","level":"info","message":"SysUserController {/admin/sys/user}:","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/user/add, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/user/info, GET} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/user/delete, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/user/page, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/user/update, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/user/password, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RoutesResolver","level":"info","message":"SysRoleController {/admin/sys/role}:","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/role/list, GET} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/role/page, GET} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/role/delete, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/role/add, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/role/update, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/role/info, GET} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RoutesResolver","level":"info","message":"SysMenuController {/admin/sys/menu}:","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/menu/list, GET} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/menu/add, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/menu/update, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/menu/delete, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/menu/info, GET} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RoutesResolver","level":"info","message":"SysDeptController {/admin/sys/dept}:","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/dept/list, GET} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/dept/add, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/dept/delete, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/dept/info, GET} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/dept/update, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/dept/transfer, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/dept/move, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RoutesResolver","level":"info","message":"SysLogController {/admin/sys/log}:","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/log/login/page, GET} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/log/task/page, GET} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RoutesResolver","level":"info","message":"SysTaskController {/admin/sys/task}:","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/task/page, GET} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/task/add, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/task/update, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/task/info, GET} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/task/once, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/task/stop, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/task/start, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/task/delete, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RoutesResolver","level":"info","message":"SysOnlineController {/admin/sys/online}:","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/online/list, GET} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/online/kick, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RoutesResolver","level":"info","message":"SysParamConfigController {/admin/sys/param-config}:","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/param-config/page, GET} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/param-config/add, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/param-config/info, GET} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/param-config/update, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/param-config/delete, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RoutesResolver","level":"info","message":"SysServeController {/admin/sys/serve}:","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/sys/serve/stat, GET} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RoutesResolver","level":"info","message":"AccountController {/admin/account}:","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/account/info, GET} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/account/update, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/account/password, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/account/logout, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/account/permmenu, GET} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RoutesResolver","level":"info","message":"NetDiskManageController {/admin/netdisk/manage}:","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/netdisk/manage/list, GET} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/netdisk/manage/mkdir, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/netdisk/manage/token, GET} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/netdisk/manage/info, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/netdisk/manage/mark, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/netdisk/manage/download, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/netdisk/manage/rename, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/netdisk/manage/delete, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/netdisk/manage/cut, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/netdisk/manage/copy, POST} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RoutesResolver","level":"info","message":"NetDiskOverviewController {/admin/netdisk/overview}:","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/netdisk/overview/desc, GET} route","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"","level":"info","message":"api服务已经启动,请访问: http://127.0.0.1:7001","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"","level":"info","message":"API文档已生成,请访问: http://127.0.0.1:7001/swagger-api/","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
+{"context":"","level":"info","message":"ws服务已经启动,请访问: http://localhost:7002/ws-api","pid":53704,"timestamp":"02/11/2023, 9:44:15 PM"}
